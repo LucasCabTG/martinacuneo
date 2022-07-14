@@ -1,0 +1,1081 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "roboto", sans-serif;
+    color: #272829;
+  }
+  
+  a {
+    color: #149ddd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .barra{
+    background-color: white;
+  }
+
+
+/*         HERO          */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/ilustraciones/sraparsimonia.jpg") top center;
+    background-size: cover;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 1;
+  }
+  #hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  #hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  #hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  /*         HEROilus          */
+
+#heroilus {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/ilustraciones/mesajarrongato.jpg") top center;
+  background-size: cover;
+}
+
+#heroilus:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;
+}
+#heroilus .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heroilus h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#heroilus p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#heroilus p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+@media (min-width: 1024px) {
+  #heroilus {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heroilus h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroilus h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+  /*         HEROcollags         */
+
+  #herocollags {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/collages/herManadas.jpg") top center;
+    background-size: cover;
+  }
+  
+  #herocollags:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 1;
+  }
+  #herocollags .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  #herocollags h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  #herocollags p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  #herocollags p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  @media (min-width: 1024px) {
+    #herocollags {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #herocollags h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #herocollags h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+    /*         HEROcrisis         */
+
+    #herocrisis {
+      width: 100%;
+      height: 100vh;
+      background: url("/assets/images/crisis/disney-crisis.jpg") top center;
+      background-size: cover;
+    }
+    
+    #herocrisis:before {
+      content: "";
+      background: rgba(5, 13, 24, 0.3);
+      position: absolute;
+      height: 100%;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-size: cover;
+      z-index: 1;
+    }
+    #herocrisis .hero-container {
+      position: relative;
+      z-index: 2;
+      min-width: 300px;
+    }
+    #herocrisis h1 {
+      margin: 0 0 10px 0;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    #herocrisis p {
+      color: #fff;
+      margin-bottom: 50px;
+      font-size: 26px;
+      font-family: "Poppins", sans-serif;
+    }
+    #herocrisis p span {
+      color: #fff;
+      padding-bottom: 4px;
+      letter-spacing: 1px;
+      border-bottom: 3px solid #149ddd;
+    }
+    @media (min-width: 1024px) {
+      #herocrisis {
+        background-attachment: fixed;
+      }
+    }
+    @media (max-width: 768px) {
+      #herocrisis h1 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+      #herocrisis h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+
+        /*         HEROamiga         */
+
+        #heroamiga {
+          width: 100%;
+          height: 100vh;
+          background: url("/assets/images/amiga/amiga-banner.jpg") top center;
+          background-size: cover;
+        }
+        
+        #heroamiga:before {
+          content: "";
+          background: rgba(5, 13, 24, 0.3);
+          position: absolute;
+          height: 100%;
+          bottom: 0;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-size: cover;
+          z-index: 1;
+        }
+        #heroamiga .hero-container {
+          position: relative;
+          z-index: 2;
+          min-width: 300px;
+        }
+        #heroamiga h1 {
+          margin: 0 0 10px 0;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+        }
+        #heroamiga p {
+          color: #fff;
+          margin-bottom: 50px;
+          font-size: 26px;
+          font-family: "Poppins", sans-serif;
+        }
+        #heroamiga p span {
+          color: #fff;
+          padding-bottom: 4px;
+          letter-spacing: 1px;
+          border-bottom: 3px solid #149ddd;
+        }
+        @media (min-width: 1024px) {
+          #heroamiga {
+            background-attachment: fixed;
+          }
+        }
+        @media (max-width: 768px) {
+          #heroamiga h1 {
+            font-size: 28px;
+            line-height: 36px;
+          }
+          #heroamiga h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+          }
+        }
+
+
+                /*         HEROflyers        */
+
+        #heroflyers {
+          width: 100%;
+          height: 100vh;
+          background: url("/assets/images/flyers/flyer-nueva-coleccion.jpg") top center;
+          background-size: cover;
+        }
+        
+        #heroflyers:before {
+          content: "";
+          background: rgba(5, 13, 24, 0.3);
+          position: absolute;
+          height: 100%;
+          bottom: 0;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-size: cover;
+          z-index: 1;
+        }
+        #heroflyers .hero-container {
+          position: relative;
+          z-index: 2;
+          min-width: 300px;
+        }
+        #heroflyers h1 {
+          margin: 0 0 10px 0;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+        }
+        #heroflyers p {
+          color: #fff;
+          margin-bottom: 50px;
+          font-size: 26px;
+          font-family: "Poppins", sans-serif;
+        }
+        #heroflyers p span {
+          color: #fff;
+          padding-bottom: 4px;
+          letter-spacing: 1px;
+          border-bottom: 3px solid #149ddd;
+        }
+        @media (min-width: 1024px) {
+          #heroflyers {
+            background-attachment: fixed;
+          }
+        }
+        @media (max-width: 768px) {
+          #heroflyers h1 {
+            font-size: 28px;
+            line-height: 36px;
+          }
+          #heroflyers h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+          }
+        }
+
+
+
+                /*         HEROflyers        */
+
+                #herotapa {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("/assets/images/artedetapa/banner.jpg") top center;
+                  background-size: cover;
+                }
+                
+                #herotapa:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100%;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herotapa .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herotapa h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herotapa p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herotapa p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herotapa {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herotapa h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herotapa h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+                /*         HEROdlr        */
+
+                #herodlr {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("/assets/images/desdelaraiz/dsdlaraiz.jpg") top center;
+                  background-size: cover;
+                }
+                
+                #herodlr:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100%;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herodlr .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herodlr h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herodlr p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herodlr p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herodlr {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herodlr h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herodlr h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+
+                /*         HEROdlr2        */
+
+                #herodlr2 {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("/assets/images/desdelaraiz/libros1.JPG") top center;
+                  background-size: cover;
+                }
+                
+                #herodlr2:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100%;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herodlr2 .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herodlr2 h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herodlr2 p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herodlr2 p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herodlr2 {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herodlr2 h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herodlr2 h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+/* CANTIS EN CARTON */
+
+#herocanticarton {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/cantiscarton/aviondepapel.jpg") top center;
+  background-size: cover;
+}
+
+#herocanticarton:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;
+}
+#herocanticarton .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#herocanticarton p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#herocanticarton p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+@media (min-width: 1024px) {
+  #herocanticarton {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+/* Cantis 2 */
+#herocanticarton2 {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/cantiscarton/pag15y16.jpg") top center;
+  background-size: cover;
+}
+
+#herocanticarton2 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton2 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton2 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Cantis 3 */
+#herocanticarton3 {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/cantiscarton/pag1y2.jpg") top center;
+  background-size: cover;
+}
+
+#herocanticarton3 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton3 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton3 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton3 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton3 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Cantis 4 */
+#herocanticarton4 {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/cantiscarton/pag11y12.jpg") top center;
+  background-size: cover;
+}
+
+#herocanticarton4 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton4 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton4 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton4 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton4 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* CERAMICA */
+#heroceramica {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/ceramica/bennerceramico.jpg") top center;
+  background-size: cover;
+}
+
+#heroceramica .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heroceramica h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #heroceramica {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heroceramica h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroceramica h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* PAPEL */
+#heropapel {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/papel/bannerpapel.jpg") top center;
+  background-size: cover;
+}
+
+#heropapel .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heropapel h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #heropapel {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heropapel h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heropapel h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* TEXTIL */
+#herotextil {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/textil/totesajedrez.jpg") top center;
+  background-size: cover;
+}
+
+#herotextil .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herotextil h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herotextil {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herotextil h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herotextil h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* OTROS OBJETOS */
+#herootros {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/otrosobj/stickers.jpg") top center;
+  background-size: cover;
+}
+
+#herootros:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#herootros .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herootros h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herootros {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herootros h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herootros h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* CONTACTO */
+#herocontact {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/bannercontacto.jpg") top center;
+  background-size: cover;
+}
+
+#herocontact:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#herocontact .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocontact h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocontact {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocontact h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocontact h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/* GENERAL */
+  
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background: #f5f8fd;
+  }
+  
+  .section-bg2 {
+    background: #a5a6a8;
+  }
+  
+  .section-title {
+    padding-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #F56045 ;
+  }
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #F56045 ;
+    bottom: 0;
+    left: 0;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+  .infoabout{
+    text-align: justify;
+  }
+
+  .amigasfanzine{
+    width: 30%;
+    align-content: flex-end;
+  }
+
+  /* Carrusel */
+
+  .carousel-inners{
+    max-height: 600px;
+    max-width: 600px;
+  }
+
+  @media (min-width: 1024px) {
+    .carousel-inners{
+        max-height: 600px;
+        max-width: 600px;
+      }
+  }
+
+
+
+  /* ARTE DE TAPA */
+
+  .titulo-adt{
+    text-align: center;
+  }
+
+  .botones{
+    margin-top: 3vh;
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    .titulo-adt{
+        margin-left: 50px;
+      }
+      .botones{
+        margin-top: 10vh;
+
+      }
+  }
+
+
+  /* DESDELARAIZ */
+
+  .texto-centro{
+    text-align: center;
+  }
